@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ExercisesModel" representedClassName="ExercisesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="exName" optional="YES" attributeType="String"/>
+        <attribute name="exPhoto" optional="YES" attributeType="String"/>
+        <attribute name="exTraining" optional="YES" attributeType="String"/>
+        <attribute name="exType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GoalModel" representedClassName="GoalModel" syncable="YES" codeGenerationType="class">
+        <attribute name="goalAch" optional="YES" attributeType="String"/>
+        <attribute name="goalDescr" optional="YES" attributeType="String"/>
+        <attribute name="goalTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TrainingModel" representedClassName="TrainingModel" syncable="YES" codeGenerationType="class">
+        <attribute name="trDescr" optional="YES" attributeType="String"/>
+        <attribute name="trPhoto" optional="YES" attributeType="String"/>
+        <attribute name="trTitle" optional="YES" attributeType="String"/>
+    </entity>
+</model>
